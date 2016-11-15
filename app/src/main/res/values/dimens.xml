@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_fields">200dp</dimen>
+    <dimen name="padding_text">10dp</dimen>
+</resources>

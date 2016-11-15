@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#084F70">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        >
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_columnWeight="0.25"
+            android:layout_row="0"
+            android:layout_rowSpan="14">
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/first_name_edit_field"
+            android:layout_width="@dimen/login_fields"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_row="0"
+
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:paddingTop="@dimen/padding_text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/last_name_edit_field"
+            android:layout_width="@dimen/login_fields"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_row="1"
+
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:paddingTop="@dimen/padding_text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="@dimen/login_fields"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_row="2"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:paddingTop="@dimen/padding_text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/username_edit_text"
+            android:layout_width="@dimen/login_fields"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_row="3"
+            android:hint="@string/username"
+
+            android:inputType="textVisiblePassword"
+            android:lines="1"
+            android:paddingTop="@dimen/padding_text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/first_password_edit_text"
+            android:layout_width="@dimen/login_fields"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_row="4"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:lines="1"
+
+            android:paddingTop="@dimen/padding_text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/second_password_edit_text"
+            android:layout_width="@dimen/login_fields"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_row="5"
+            android:hint="@string/repeat_password"
+            android:inputType="textWebPassword"
+            android:lines="1"
+            android:paddingTop="@dimen/padding_text"
+
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <LinearLayout
+
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:layout_row="6">
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_shape_button"
+                android:text="REGISTER"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="3"
+            android:layout_row="3"
+            android:layout_columnWeight="0.25"
+            />
+        <!--<LinearLayout-->
+            <!--android:layout_column="3"-->
+            <!--android:layout_columnWeight="0.25"-->
+            <!--android:layout_row="0"-->
+            <!--android:layout_rowSpan="14"-->
+
+            <!--&gt;</LinearLayout>-->
+
+    </GridLayout>
+</LinearLayout>
